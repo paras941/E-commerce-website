@@ -10,7 +10,7 @@ No backend. No payments. Clean frontend logic only.
 ## 🚀 Features
 - Product listing page  
 - Product details view  
-- Add to cart / remove from cart  
+- Add to cart / remove from cart.
 - Cart total calculation  
 - Responsive layout.
 

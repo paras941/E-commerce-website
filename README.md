@@ -1,31 +1,44 @@
-# 🛒 Commerce Shop
+🛒 E-Commerce Website (React)
 
-A simple **frontend-only e-commerce web application** built with **React**.  
-The project focuses on UI, product listing, cart functionality, and basic state management.
+A fully functional e-commerce web application built using React.
+The project focuses on core shopping features, clean UI, and scalable frontend architecture.
 
-No backend. No payments. Clean frontend logic only.
+🚀 Features
 
----
+Product listing with dynamic data
+Product detail pages
+Add to cart / remove from cart
+Cart summary with total price calculation
+Responsive design (mobile + desktop)
+Reusable React components
+Clean folder structure
 
-## 🚀 Features
-- Product listing page  
-- Product details view.
-- Add to cart / remove from cart.
-- Cart total calculation  
-- Responsive layout.
+This project focuses on frontend logic and UI.
+Authentication, payments, and backend APIs can be added later.
 
----
+🧠 Tech Stack
 
-## 🛠 Tech Stack.
-- React
-- JavaScript / TypeScript
-- Vite
-- CSS / Tailwind CSS.
+React (Functional Components + Hooks)
+JavaScript (ES6+)
+CSS / CSS Modules
+React Router (for navigation)
+Context API / useState (state management)
 
----
-
-## 📦 Installation & Setup.
-
-```bash
-npm install
-npm run dev
+📂 Project Structure
+src/
+│── components/
+│   ├── Navbar/
+│   ├── ProductCard/
+│   ├── CartItem/
+│
+│── pages/
+│   ├── Home.jsx
+│   ├── Product.jsx
+│   ├── Cart.jsx
+│
+│── context/
+│   └── CartContext.jsx
+│
+│── assets/
+│── App.jsx
+│── main.jsx
